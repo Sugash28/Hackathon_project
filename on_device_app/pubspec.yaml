@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
   camera: ^0.11.0+2
   permission_handler: ^11.3.1
+  tflite_flutter: ^0.12.1
+  flutter_tts: ^4.2.2
 
 dev_dependencies:
   flutter_test:
@@ -19,3 +21,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/hand_landmarker.task
+    - assets/sign_language_model.tflite
